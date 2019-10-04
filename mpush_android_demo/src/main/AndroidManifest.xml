@@ -46,10 +46,10 @@
         <receiver
             android:name=".component.MyMessageReceiver"
             android:exported="false">
-            <intent-filter> 
+            <intent-filter>
                 <action android:name="com.alibaba.push2.action.NOTIFICATION_OPENED" />
             </intent-filter>
-            <intent-filter>     
+            <intent-filter>
                 <action android:name="com.alibaba.push2.action.NOTIFICATION_REMOVED" />
             </intent-filter>
             <intent-filter>
@@ -60,10 +60,10 @@
         <service
             android:name=".component.MyMessageIntentService"
             android:exported="false">
-            <intent-filter> 
+            <intent-filter>
                 <action android:name="com.alibaba.push2.action.NOTIFICATION_OPENED" />
             </intent-filter>
-            <intent-filter>     
+            <intent-filter>
                 <action android:name="com.alibaba.push2.action.NOTIFICATION_REMOVED" />
             </intent-filter>
             <intent-filter>
